@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+<title>自作作品集</title>
+<link rel="stylesheet" href="something.css" type="text/css">
+
+</head>
+<body>
+<div class="container">
+  <main class="main">
+  <p>scratchで作ってきた私の作品を紹介します。</p>
+<div class="main">
+  <h2>scratchの自信作作品集</h2>
+  <p>
+    <a href="https://scratch.mit.edu/projects/415037978/">福笑い</a>
+    福笑いです。キャットの顔を並べます。</p>
+  <p><iframe src="https://forkphorus.github.io/embed.html?id=415037978&auto-start=true&light-content=false" width="482" height="393" allowfullscreen="true" allowtransparency="true" style="border:none;"></iframe></iframe></p>
+
+  <p>
+  <a href="https://scratch.mit.edu/projects/368371916/">まるゲーム</a>
+  緑の丸が自分です。矢印キーまたはマウスで操作します。<br>赤い丸に当たったら終わりです。</p>
+  <p><iframe src="https://forkphorus.github.io/embed.html?id=368371916&auto-start=false&light-content=false" width="482" height="393" allowfullscreen="true" allowtransparency="true" style="border:none;"></iframe></iframe></iframe></p>
+  </main>
+  <div class="sidebar">
+    <div class="sidebar__item">
+    </div>
+    <div class="sidebar__item sidebar__item--fixed">
+      <p>
+      <a href="https://scratch.mit.edu/users/sirokurokumasan/">scratchのアカウント</a>
+      </p>
+      <p>
+      <a href="https://sirokurokumasan.github.io/">ホームへ</a> 戻ります。</p>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>
