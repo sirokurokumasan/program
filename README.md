@@ -1,3 +1,3 @@
 # sirokurokumasan.github.io
 Testing GitHub Pages.
-リンク：sirokurokumasan.github.io/
+これの中身です。：https://sirokurokumasan.github.io/
