@@ -2,19 +2,19 @@ body {background-color: #cbdea6; }
 
 .container {
   background: #a3cbef;
-  width: 1600px;
+  width: 1300px;
   display: -webkit-flex;
   display: flex;
 }
 .main {
   background: #bce9f2;
   display: block;
-  width: 1000px;
+  width: 900px;
   margin-right: 20px;
 }
 .sidebar {
   background: #a3cbef;
-  width: 600px;
+  width: 400px;
 }
 .sidebar__item {
   margin-bottom: 20px;
