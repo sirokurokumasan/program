@@ -21,21 +21,6 @@ class Math {
                }
              }
            }
-         {
-          opcode: 'power', 
-          blockType: Scratch.BlockType.REPORTER,
-          text: '[X]≧[N]',
-          arguments: {
-            X: {
-              type: Scratch.ArgumentType.NUMBER,
-              defaultValue: ''
-               },
-            N: {
-              type: Scratch.ArgumentType.NUMBER,
-              defaultValue: ''
-               }
-             }
-           }
         ]
      }
   }
