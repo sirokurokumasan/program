@@ -8,7 +8,7 @@ h1 {
 
 .container {
   background: #cbdea6;
-  width: 1500px;
+  width: 1400px;
   display: -webkit-flex;
   display: flex;
 }
@@ -20,7 +20,7 @@ h1 {
 }
 .sidebar {
   background: #cbdea6;
-  width: 500px;
+  width: 400px;
 }
 .sidebar__item {
   margin-bottom: 20px;
