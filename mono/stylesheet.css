@@ -7,7 +7,7 @@ h1 {
 }
 
 .container {
-  background: #a3cbef;
+  background: #cbdea6;
   width: 1500px;
   display: -webkit-flex;
   display: flex;
@@ -26,7 +26,7 @@ h1 {
   margin-bottom: 20px;
 }
 .sidebar__item--fixed {
-  background: #C5E99B;
+  background: #B2E2EC;
   position: sticky;
   margin-bottom: 0;
   top: 10px;
