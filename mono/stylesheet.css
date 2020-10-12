@@ -1,5 +1,3 @@
-body {background-color: #cbdea6; }
-
 h1 {
   color: #7EC2C2;
   text-shadow: 0 0 5px white;
@@ -21,7 +19,7 @@ h1 {
   margin-right: 20px;
 }
 .sidebar {
-  background: #8CD790;
+  background: #cbdea6;
   width: 500px;
 }
 .sidebar__item {
