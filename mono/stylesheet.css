@@ -33,3 +33,10 @@ h1 {
   z-index: 1;
 }
 
+.bs {
+  margin-bottom: 2em;
+}
+
+.ss {
+  margin-bottom: 0.5em;
+}
