@@ -13,7 +13,7 @@ h1 {
   display: flex;
 }
 .main {
-  background: #879a86;
+  background: #b2e2ec;
   display: block;
   width: 1000px;
   margin-right: 20px;
@@ -26,7 +26,7 @@ h1 {
   margin-bottom: 20px;
 }
 .sidebar__item--fixed {
-  background: #B2E2EC;
+  background: #879a86;
   position: sticky;
   margin-bottom: 0;
   top: 10px;
