@@ -1,19 +1,19 @@
 h1 {
-  color: #7EC2C2;
+  color: #000000;
   text-shadow: 0 0 5px white;
-  border-left: solid 7px #7EC2C2;
-  background: -webkit-repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
-  background: repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+  border-left: solid 7px #FFC042;
+  background: -webkit-repeating-linear-gradient(-45deg, #FFC042, #FFC042 3px,#f7d76b 3px, #f7d76b 7px);
+  background: repeating-linear-gradient(-45deg, #FFC042, #FFC042 3px,#f7d76b 3px, #f7d76b 7px);
 }
 
 .container {
-  background: #879a86;
+  background: #cbdea6;
   width: 1400px;
   display: -webkit-flex;
   display: flex;
 }
 .main {
-  background: #e5ffff;
+  background: #879a86;
   display: block;
   width: 1000px;
   margin-right: 20px;
