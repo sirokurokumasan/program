@@ -1,9 +1,24 @@
-h1 {
-  color: #000000;
-  text-shadow: 0 0 5px white;
-  border-left: solid 7px #FFC042;
-  background: -webkit-repeating-linear-gradient(-45deg, #FFC042, #FFC042 3px,#f7d76b 3px, #f7d76b 7px);
-  background: repeating-linear-gradient(-45deg, #FFC042, #FFC042 3px,#f7d76b 3px, #f7d76b 7px);
+h2:first-letter {
+  font-size: 2em;
+}
+h2 {position: relative;/*相対位置*/
+  padding: 0.5em 0.5em 0.5em 1.5em;/*アイコン分のスペース*/
+  line-height: 1.4;/*行高*/
+  color: #ff6a6a;/*文字色*/
+  border-top: dotted 1px gray;
+  border-bottom: dotted 1px gray;
+  background: #fffff4;
+}
+
+h2:before {
+  font-family: "Font Awesome 5 Free";/*忘れずに*/
+  content: "U+27EB";/*アイコンのユニコード*/
+  font-weight: 900;
+  position: absolute;/*絶対位置*/
+  font-size: 1em;/*サイズ*/
+  left: 0.25em;/*アイコンの位置*/
+  top: 0.5em;/*アイコンの位置*/
+  color: #ff6a6a; /*アイコン色*/
 }
 
 .container {
