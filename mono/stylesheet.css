@@ -1,45 +1,42 @@
+border-color: #7a7122
+
 h2:first-letter {
   font-size: 2em;
 }
-h2 {position: relative;/*相対位置*/
-  padding: 0.5em 0.5em 0.5em 1.5em;/*アイコン分のスペース*/
+h2 {
   line-height: 1.4;/*行高*/
   color: #000000;/*文字色*/
   border-top: dotted 3px gray;
   border-bottom: dotted 3px gray;
 }
 
-h2:before {
-  font-family: "Font Awesome 5 Free";
-  content: "\27EB";/*アイコンのユニコード*/
-  font-weight: 900;
-  position: absolute;/*絶対位置*/
-  font-size: 1em;/*サイズ*/
-  left: 0.25em;/*アイコンの位置*/
-  top: 0.5em;/*アイコンの位置*/
-  color: #81d0cb; /*アイコン色*/
-}
-
 .container {
-  background: #cbdea6;
   width: 1400px;
   display: -webkit-flex;
   display: flex;
 }
 .main {
+  border: 2px solid;
+  border-color: #000000;
   background: #eef1d9;
   display: block;
   width: 1000px;
   margin-right: 20px;
 }
 .sidebar {
+  border: 2px solid;
+  border-color: #000000;
   background: #cbdea6;
   width: 400px;
 }
 .sidebar__item {
+  border: 2px solid;
+  border-color: #000000;
   margin-bottom: 20px;
 }
 .sidebar__item--fixed {
+  border: 2px solid;
+  border-color: #000000;
   background: #d7d7a3;
   position: sticky;
   margin-bottom: 0;
