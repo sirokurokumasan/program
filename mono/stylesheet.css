@@ -7,18 +7,17 @@ h2 {position: relative;/*相対位置*/
   color: #ff6a6a;/*文字色*/
   border-top: dotted 1px gray;
   border-bottom: dotted 1px gray;
-  background: #fffff4;
 }
 
 h2:before {
-  font-family: "Font Awesome 5 Free";/*忘れずに*/
-  content: "U+27EB";/*アイコンのユニコード*/
+  font-family: "Font Awesome 5 Free";
+  content: "/27EB";/*アイコンのユニコード*/
   font-weight: 900;
   position: absolute;/*絶対位置*/
   font-size: 1em;/*サイズ*/
   left: 0.25em;/*アイコンの位置*/
   top: 0.5em;/*アイコンの位置*/
-  color: #ff6a6a; /*アイコン色*/
+  color: #81d0cb; /*アイコン色*/
 }
 
 .container {
@@ -28,7 +27,7 @@ h2:before {
   display: flex;
 }
 .main {
-  background: #b2e2ec;
+  background: #eef1d9;
   display: block;
   width: 1000px;
   margin-right: 20px;
@@ -41,7 +40,7 @@ h2:before {
   margin-bottom: 20px;
 }
 .sidebar__item--fixed {
-  background: #879a86;
+  background: #d7d7a3;
   position: sticky;
   margin-bottom: 0;
   top: 10px;
