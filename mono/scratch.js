@@ -21,7 +21,7 @@ class Utilities {
 
           blockType: Scratch.BlockType.BOOLEAN,
 
-          text: 'is [A] exactly [B]?',
+          text: ' [A] と [B]は全く同じ',
           arguments: {
             A: {
               type: Scratch.ArgumentType.STRING,
@@ -38,7 +38,7 @@ class Utilities {
 
           blockType: Scratch.BlockType.BOOLEAN,
 
-          text: '[A] <= [B]',
+          text: '[A] ≦ [B]',
           arguments: {
             A: {
               type: Scratch.ArgumentType.NUMBER
@@ -54,7 +54,7 @@ class Utilities {
 
           blockType: Scratch.BlockType.BOOLEAN,
 
-          text: '[A] >= [B]',
+          text: '[A] ≧ [B]',
           arguments: {
             A: {
               type: Scratch.ArgumentType.NUMBER
@@ -80,7 +80,7 @@ class Utilities {
 
           blockType: Scratch.BlockType.REPORTER,
 
-          text: '[A] ^ [B]',
+          text: '[A] の [B]乗',
           arguments: {
             A: {
               type: Scratch.ArgumentType.NUMBER
@@ -93,25 +93,25 @@ class Utilities {
         {
           opcode: 'pi',
           blockType: Scratch.BlockType.REPORTER,
-          text: 'pi'
+          text: '円周率'
         },
         {
           opcode: 'ternaryOperator',
 
           blockType: Scratch.BlockType.REPORTER,
 
-          text: 'if [A] then [B] else [C]',
+          text: 'もし [A] なら [B] でなければ [C]',
           arguments: {
             A: {
               type: Scratch.ArgumentType.BOOLEAN
             },
             B: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'banana'
+              defaultValue: 'バナナ'
             },
             C: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'apple'
+              defaultValue: 'りんご'
             }
           }
         },
