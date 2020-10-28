@@ -1,12 +1,12 @@
-h2:first-letter {
-  font-size: 2em;
-}
+h2:first-letter {font-size: 1.5em;}
 h2 {
-  line-height: 1.4;/*行高*/
-  color: #000000;/*文字色*/
-  border-top: dotted 3px gray;
-  border-bottom: dotted 3px gray;
+  line-height: 1.4;
+  color: #cd733e;
+  border-top: dotted 3px #cd733e;
+  border-bottom: dotted 3px #cd733e;
 }
+
+h3 {background: linear-gradient(transparent 70%, #e5ad6e 70%);}
 
 .container {
   width: 1400px;
@@ -36,13 +36,9 @@ h2 {
   z-index: 1;
 }
 
-.big {
-  margin-bottom: 2em;
-}
+.big {margin-bottom: 2em;}
 
-.small {
-  margin-bottom: 0.5em;
-}
+.small {margin-bottom: 0.5em;}
 
 .btn {
   display: inline-block;
