@@ -1,4 +1,4 @@
-const icon = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADTUlEQVRIS63VTWgUZxgH8P+7Mzsf+2U2SrPJKBoEA1WKUMzupaKHpgoetadCnaBN9FRaLLRQEW17KKIed1V21dJLbU/FRqiixx219NDaVi+NmnWNZT+cze7Ozsf7yoxEYpnMRJI5DQzP+5v3P8/7DEHANVHM7iXAVyAkwQCNgZYjDp3KH7jzZ1DdwmckBLirrE29KQgcTNOBZTrQdYP2es631LSPnp34zQqDlgTIcvTlOowxNBsG6o3uHw6he899eOt+EBIGeBHxUW5ElDjEYwKSKdFbzzAsVB61/q4lWlsvv3/XXAwJBOaL9pe29slE3MgoOSHF+N0DAwnwfASNehe1WudkYVw7sixgYfFkMXtSikU/VZQU3LhmHjVZ17Sz59Tbt/2QJe3glUIGMnEhe3PgjcR2Ny5dN/Df0873ebX8gS/wshUBUMK+PKveuhzWGZPF0fdiceHq4FAK3a6FyoyuFca13GKA14ruw8qM/ldhXNscBnz03duDUSY83jCchu04ePBvs5ZXtTW+wGQpW12/IZ1xP9r0dAM9g2bOH9Rmg5DDpW0ZwvFVD7CpW1ctqNqQP1DM/ZJRErvdFqw+bqHdMccKqvZr4AEsbdsVj4lTbkTttolqtXWloGp7FtlB7uv+1fIX6bSM9pyJJ9W5a3m1PAYC5ou4H7mUvT44mNwZTwio17to1Dsn8qp21Bc4cGl0WCLcP+vW9wkRQrxddNrW6cyw9NmxnTfthUX7ftgs9LcTP8dkfmxIWeW16cOHTdO22EheLU8v2qYTxezn6bT8zeo1MS/T2dk5GB3rHgNOMd6+SsFxnE3eJcAnohwdUZQkQAjqtTYadePHwri2L/CgHbuxg3/ywPhdUZJbJOnF3GnpPS9fw7ABAkgij3h8flS46REYPRvVig5KoebV8oXAg3bw4ugmjkV+6u+Xt/T1SSDE/wy6sTxrdiHHBYgCH4q8ssqLjOPHZYk/kkiKEUHg4Y5qBgbLpDBNG62W5Rhde4rjsGdISUEUgxHf1zx0MfsWdTBGCHIAeQeABbAyBdPmfziTpdz+SASlMOT1Z9GCoJeCLAtwrTBk2UAYsiKAH+JN2YreXDHg/wilzJ3Oz1YUmEcYY2fce0LIx88BFi6vvp70RPYAAAAASUVORK5CYII=";
+const icon = "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSI2Mi4zIiBoZWlnaHQ9IjQyLjE3MjY2IiB2aWV3Qm94PSIwLDAsNjIuMyw0Mi4xNzI2NiI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIyMi4zNSwtMTU4LjU0Njg3KSI+PGcgZGF0YS1wYXBlci1kYXRhPSJ7JnF1b3Q7aXNQYWludGluZ0xheWVyJnF1b3Q7OnRydWV9IiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0yODQuNjUsMTkwLjMwMTY0YzAsMy42NDE3MSAtMy4yOTcxNSw3LjY3ODQ1IC0xMS43ODMyLDkuNTM2NjVjLTQuOTAwMzgsMS4wNzMwNCAtMTMuMDY5MDQsMC44NjQ5OCAtMTkuMzY2OCwwLjg2NDk4Yy02LjgyMDg1LDAgLTE0LjUxNDExLC0wLjA2NjM0IC0xOS42NDQ3MSwtMS4zMDc5OGMtNy44MDk5MSwtMS44OTAwNSAtMTEuNTA1MjksLTUuNjI2NjEgLTExLjUwNTI5LC05LjA5MzY2YzAsLTUuNzQ0NjcgMTMuOTQ2MzMsLTEwLjQwMTY0IDMxLjE1LC0xMC40MDE2NGMxNy4yMDM2NywwIDMxLjE1LDQuNjU2OTcgMzEuMTUsMTAuNDAxNjR6IiBmaWxsPSIjMDAwMDAwIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMCIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiLz48cGF0aCBkPSJNMjI4Ljc1LDE5NC40YzAsMCAtMC4xMDY3LC0xNy42NzQ4NCAwLC0yNC4yODMyNWMwLjE1MzAxLC05LjQ3NjM3IDE3LjE4NTAxLC0xMS41Njk4OSAyNS42LC0xMS41Njk4OWM4LjI0ODM0LDAgMjQuMjczMTIsNC44NDQ5NyAyNC40LDExLjU2OTg5YzAuMTQ0NDYsNy42NTY5OCAwLDI0LjI4MzI1IDAsMjQuMjgzMjV6IiBmaWxsPSIjMDAwMDAwIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMCIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiLz48cGF0aCBkPSJNMjMwLjM0MDc5LDE4NC4wMjQ4M2MwLDAgMTUuOTQ4MzgsMi45NTUwNSAyMy43OTU5NCwzLjA1NDRjNy42ODIyNiwwLjA5NzI2IDIyLjgwNDA2LC0yLjQ2NDQ0IDIyLjgwNDA2LC0yLjQ2NDQ0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZjAwMDAiIHN0cm9rZS13aWR0aD0iNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PC9nPjwvZz48L3N2Zz4=";
 
 class Utilities {
 
@@ -120,26 +120,26 @@ class Utilities {
 
           blockType: Scratch.BlockType.REPORTER,
 
-          text: 'letters [START] to [END] of [STRING]',
+          text: ' [START] から [END] までの文字を [STRING]から消す',
           arguments: {
             START: {
               type: Scratch.ArgumentType.NUMBER,
-              defaultValue: 5
+              defaultValue: 3
             },
             END: {
               type: Scratch.ArgumentType.NUMBER,
-              defaultValue: 7
+              defaultValue: 5
             },
             STRING: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'red apple'
+              defaultValue: '赤いりんご'
             }
           }
         },
         {
           opcode: 'currentMillisecond',
           blockType: Scratch.BlockType.REPORTER,
-          text: 'current millisecond'
+          text: '現在のミリ秒'
         },
         {
           opcode: 'fetchFrom',
