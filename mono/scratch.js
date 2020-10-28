@@ -6,8 +6,8 @@ class Utilities {
 
   getInfo() {
     return {
-      id: 'utilities',
-      name: 'Utlities',
+      id: 'blocks+',
+      name: 'ブロック＋',
 
       color1: '#8BC34A',
       color2: '#7CB342',
@@ -189,7 +189,7 @@ class Utilities {
 
           blockType: Scratch.BlockType.REPORTER,
 
-          text: 'replace [STRING] using the rule [REGEX] with [NEWSTRING]',
+          text: ' [STRING] の中にある [REGEX] の場所を [NEWSTRING]に置き換える',
           arguments: {
             STRING: {
               type: Scratch.ArgumentType.STRING,
