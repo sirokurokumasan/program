@@ -163,11 +163,11 @@ class Utilities {
           arguments: {
             PATH: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'fruit/apples'
+              defaultValue: 'フルーツ/りんご'
             },
             JSON_STRING: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: '{"fruit": {"apples": 2, "bananas": 3}, "total_fruit": 5}'
+              defaultValue: '{"フルーツ": {"りんご": 2, "バナナ": 3}, "total_フルーツ": 5}'
             }
           }
         },
@@ -193,15 +193,15 @@ class Utilities {
           arguments: {
             STRING: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'bananas are awesome. i like bananas.'
+              defaultValue: 'バナナはおいしい。私はバナナが好きだ。'
             },
             REGEX: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'banana'
+              defaultValue: 'バナナ'
             },
             NEWSTRING: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'apple'
+              defaultValue: 'りんご'
             }
           }
         }
