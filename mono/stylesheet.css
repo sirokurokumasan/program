@@ -6,7 +6,7 @@ h2 {
   border-bottom: dotted 3px #cd733e;
 }
 
-h3 {background: linear-gradient(transparent 70%, #e5ad6e 70%);}
+h3 {background: linear-gradient(transparent 70%, #e5ad6e 100%);}
 
 .container {
   width: 1400px;
