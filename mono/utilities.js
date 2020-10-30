@@ -83,10 +83,12 @@ class Utilities {
           text: '[A] ^ [B]',
           arguments: {
             A: {
-              type: Scratch.ArgumentType.NUMBER
+              type: Scratch.ArgumentType.NUMBER,
+              defaultValue: 2
             },
             B: {
-              type: Scratch.ArgumentType.NUMBER
+              type: Scratch.ArgumentType.NUMBER,
+              defaultValue: 3
             }
           }
         },
@@ -176,7 +178,7 @@ class Utilities {
 
           blockType: Scratch.BlockType.BOOLEAN,
 
-          text: '　[STRING]　',
+          text: '[STRING]',
           arguments: {
             STRING: {
               type: Scratch.ArgumentType.STRING,
@@ -189,7 +191,7 @@ class Utilities {
 
           blockType: Scratch.BlockType.REPORTER,
 
-          text: 'replace [STRING] の中にある [REGEX] を [NEWSTRING] で置き換える',
+          text: '[STRING] の中にある [REGEX] を [NEWSTRING] で置き換える',
           arguments: {
             STRING: {
               type: Scratch.ArgumentType.STRING,
