@@ -21,17 +21,17 @@ class blocksplus {
 
           blockType: Scratch.BlockType.REPORTER,
 
-          text: ' [A] とアラートを出す',
+          text: ' [STRING] とアラートを出す',
           arguments: {
-            A: {
+            STRING: {
               type: Scratch.ArgumentType.STRING,
               defaultValue: 'こんにちは！'
             }
           }
         },
 
-  ara-to({A}) {
-    alert(A);
+  ara-to({STRING}) {
+    alert (STRING);
   }
 
 Scratch.extensions.register(new blocksplus());
