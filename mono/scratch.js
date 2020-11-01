@@ -26,7 +26,7 @@ class blocksplus {
             A: {
               type: Scratch.ArgumentType.STRING,
               defaultValue: 'こんにちは！'
-            },
+            }
           }
         },
 
