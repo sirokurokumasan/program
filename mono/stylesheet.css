@@ -82,25 +82,27 @@ blockquote {
     position: relative;
     padding: 10px 12px;
     box-sizing: border-box;
+    font-style: italic;
     color: #464646;
-    border-left: solid 50px #d0b033;
-    background: #dec9bc;
+    border: solid 3px #3ca5d4;
+    border-left-width: 50px;
 }
+
 blockquote:before{
     display: inline-block;
     position: absolute;
     top: 50%;
-    left: -37px;
+    left: -55px;
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    content: "\f10d";
-    font-family: FontAwesome;
+    content: "“";
+    font-family: sans-serif;
     color: #FFF;
-    font-size: 22px;
+    font-size: 90px;
     line-height: 1;
-    font-weight: 900;
 }
+
 blockquote p {
     position: relative;
     padding: 0;
@@ -108,6 +110,7 @@ blockquote p {
     z-index: 3;
     line-height: 1.7;
 }
+
 blockquote cite {
     display: block;
     text-align: right;
