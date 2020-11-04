@@ -16,7 +16,7 @@ class blocksplus {
       menuIconURI: icon,
       
       blocks: [
-      {
+        {
           opcode: 'isLessOrEqual',
 
           blockType: Scratch.BlockType.BOOLEAN,
