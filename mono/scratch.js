@@ -31,11 +31,10 @@ class blocksplus {
               defaultValue: 50
             }
           }
-        }
-      ]
+        ]
+      }
     }
   }
-}
   isLessOrEqual({A, B}) {
     return A <= B;
   }
