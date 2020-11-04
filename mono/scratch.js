@@ -39,6 +39,5 @@ class blocksplus {
   isLessOrEqual({A, B}) {
     return A <= B;
   }
-}
 
 Scratch.extensions.register(new blocksplus());
