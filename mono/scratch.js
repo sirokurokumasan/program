@@ -15,23 +15,26 @@ class blocksplus {
 
       menuIconURI: icon,
 
-      blocks: [
-        {
-          opcode: 'ara-to',
+      {
+          opcode: 'isLessOrEqual',
 
-          blockType: Scratch.BlockType.REPORTER,
+          blockType: Scratch.BlockType.BOOLEAN,
 
-          text: ' [STRING] とアラートを出す',
+          text: '[A] ≦ [B]',
           arguments: {
-            STRING: {
-              type: Scratch.ArgumentType.STRING,
-              defaultValue: 'こんにちは！'
+            A: {
+              type: Scratch.ArgumentType.NUMBER
+            },
+            B: {
+              type: Scratch.ArgumentType.NUMBER,
+              defaultValue: 50
             }
           }
-        },
+        }
 
-  ara-to({STRING}) {
-    alert (STRING);
+  isLessOrEqual({A, B}) {
+    return A <= B;
   }
+}
 
 Scratch.extensions.register(new blocksplus());
