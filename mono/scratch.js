@@ -14,7 +14,8 @@ class blocksplus {
       color3: '#ffcc64',
 
       menuIconURI: icon,
-
+      
+      blocks: [
       {
           opcode: 'isLessOrEqual',
 
