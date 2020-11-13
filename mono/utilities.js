@@ -93,9 +93,9 @@ class Utilities {
           }
         },
         {
-          opcode: '円周率',
+          opcode: 'pi',
           blockType: Scratch.BlockType.REPORTER,
-          text: 'pi'
+          text: '円周率'
         },
         {
           opcode: 'ternaryOperator',
