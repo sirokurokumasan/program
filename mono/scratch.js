@@ -95,7 +95,7 @@ class Utilities {
         {
           opcode: 'pi',
           blockType: Scratch.BlockType.REPORTER,
-          text: '円周率'
+          text: 'マウスがダブルクリックした'
         },
         
         {
@@ -217,7 +217,7 @@ class Utilities {
   }
 
   pi() {
-    return Math.PI;
+    return onDblclick;
   }
 
   letters({STRING, START, END}) {
