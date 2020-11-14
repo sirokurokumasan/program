@@ -236,7 +236,6 @@ class Utilities {
   }
 
   ternaryOperator({A, B}) {
-    var num = B;
     num.toString(A)
   }
 
