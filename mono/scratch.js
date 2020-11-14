@@ -97,22 +97,7 @@ class Utilities {
           blockType: Scratch.BlockType.REPORTER,
           text: '円周率'
         },
-        {
-          opcode: 'ternaryOperator',
-          blockType: Scratch.BlockType.REPORTER,
-          text: '10進数[A]を[B]進数にする',
-          arguments: {
-            A: {
-              type: Scratch.ArgumentType.STRING,
-              defaultValue: 'A'
-            },
-            B: {
-              type: Scratch.ArgumentType.STRING,
-              defaultValue: '16'
-            },
-            }
-          }
-        },
+        
         {
           opcode: 'letters',
 
@@ -233,10 +218,6 @@ class Utilities {
 
   pi() {
     return Math.PI;
-  }
-
-  ternaryOperator({A, B}) {
-    return A.toString(B)
   }
 
   letters({STRING, START, END}) {
