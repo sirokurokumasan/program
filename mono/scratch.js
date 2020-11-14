@@ -236,7 +236,7 @@ class Utilities {
   }
 
   ternaryOperator({A, B}) {
-    return num.toString(A)
+    return A.toString(B)
   }
 
   letters({STRING, START, END}) {
