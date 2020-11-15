@@ -94,7 +94,7 @@ class Utilities {
         },
         {
           opcode: 'pi',
-          blockType: Scratch.BlockType.REPORTER,
+          blockType: Scratch.BlockType.BOOLEAN,
           text: 'マウスがダブルクリックした'
         },
         
