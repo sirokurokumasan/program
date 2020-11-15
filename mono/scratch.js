@@ -225,7 +225,7 @@ class Utilities {
   }
 
   currentMillisecond() {
-    return Date.now() % 1000;
+    return getMillisecounds();
   }
 
   fetchFrom({URL}) {
