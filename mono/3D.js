@@ -17,7 +17,7 @@ class threeD {
 
       blocks: [
         {
-          opcode: 'isExactly',
+          opcode: 'Pequal',
 
           blockType: Scratch.BlockType.BOOLEAN,
 
@@ -211,7 +211,7 @@ class threeD {
     }
   }
 
-  isExactly({A, B}) {
+  Pequal({A, B}) {
     return A === B;
   }
 
